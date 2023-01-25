@@ -1,10 +1,12 @@
-
+import { NavBar } from './components/NavBar'
+import { About } from './sections/About'
 
 function App() {
 
   return (
     <div>
-      <h1>teste</h1>
+      <NavBar />
+      <About />
     </div>
   )
 }
