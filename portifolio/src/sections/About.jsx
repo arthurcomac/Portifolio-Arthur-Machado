@@ -6,18 +6,19 @@ export function About () {
       alt="imagem de arthur"
       className="w-full md:w-1/2 md:h-auto rounded-3xl"
     />
-    <p className="md:w-1/3 md:ml-24 md:mt-24 font-roboto dark:text-slate-100">
+    <p className="md:w-1/3 md:ml-24 md:mt-24 font-roboto dark:text-slate-100 text-lg">
       <strong className="text-8xl">Olá</strong>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, 
-      reiciendis soluta  maxime quisquam nisi sapiente eos molestias dolores corporis? 
-      Deleniti autem minima voluptatibus exercitationem eum, commodi doloribus maxime error 
-      eveniet.
-      Lorem ipsum dolor, sit amet consectetur adipisicing 
-      elit. Excepturi, tempora voluptatem. Vel omnis tenetur quia eaque officiis a, 
-      fugit veritatis. Sapiente laborum aperiam perspiciatis quibusdam voluptatum error 
-      sequi? Aliquam, ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Natus aliquid eum veniam eos, quam voluptate. Voluptate, corporis id? Impedit est, 
-      error dolorum pariatur similique maiores ipsa ab mollitia. Numquam, cumque!
+      meu nome é Arthur Machado, sou desenvolvedor web frontend.
+      Venho trabalhando em projetos pessoais como este que está acessando agora,
+      este site de apresentação ainda está em processo de desenvolvimento, irei adaptar aqui funcionabilidades
+      que eu aprender com intuito de apresentar por este, estas hard skills.
+      Estarei sempre disposto a uma conversa caso queira conhecer melhor o que venho fazendo e aprendendo.
+      Hoje estudo programação junto a <a href="https://app.rocketseat.com.br/dashboard" target={"_blank"} className="underline hover:text-sky-600 text-sky-900 dark:text-sky-600 dark:hover:text-sky-900">Rocketseat</a>, 
+      atualmente estou cursando ReactJs na trilha ignite,
+      e estudo inglês na <a href="https://englishbackstage.fluencyacademy.io/products/english-backstage-prep-yourself/categories/2150281358/posts/2157877229"  target={"_blank"} className="underline hover:text-sky-600 text-sky-900 dark:text-sky-600 dark:hover:text-sky-900">Fluency Academy</a>
+      , onde faço aulas de conversação na plataforma Yowza.
+      Algumas das tecnologias que venho utilizando são: ReactJs, Tailwindcss, Vite. Pode me contatar pelos
+      links no topo da pagina, obrigado pela visita!
     </p>
   </div>
 }
