@@ -18,7 +18,7 @@ export function About () {
       e estudo inglês na <a href="https://englishbackstage.fluencyacademy.io/products/english-backstage-prep-yourself/categories/2150281358/posts/2157877229"  target={"_blank"} className="underline hover:text-sky-600 text-sky-900 dark:text-sky-600 dark:hover:text-sky-900">Fluency Academy</a>
       , onde faço aulas de conversação na plataforma Yowza.
       Algumas das tecnologias que venho utilizando são: ReactJs, Tailwindcss, Vite. Pode me contatar pelos
-      links no topo da pagina, obrigado pela visita!
+      links no topo da pagina, obrigado pela visita
     </p>
   </div>
 }
