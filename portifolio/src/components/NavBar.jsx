@@ -10,15 +10,15 @@ export function NavBar() {
   const linkedin = `https://www.linkedin.com/in/arthur-machado-a72411219/`
   
   return (
-    <div className="flex-col md:flex w-full h-24 text-[#7956e8] dark:text-slate-200 items-center justify-center md:relative">
+    <div className="flex-col md:flex w-full h-24 text-[#7956e8] dark:text-slate-200 items-center justify-center md:relative mb-10">
 
       <div className=" text-6xl flex space-x-10 items-center justify-center mt-4">
-        <a href={instagram} target="blank"><BsInstagram /></a>
-        <a href={github} target="blank"><BsGithub /></a>
-        <a href={linkedin} target="blank"><BsLinkedin /></a>
+        <a href={instagram} className='hover:text-7xl duration-300' target="blank"><BsInstagram /></a>
+        <a href={github} className='hover:text-7xl duration-300' target="blank"><BsGithub /></a>
+        <a href={linkedin} className='hover:text-7xl duration-300' target="blank"><BsLinkedin /></a>
       </div>
 
-      <div className='md:absolute md:ml-[75%] flex items-center justify-center mt-4'>
+      <div className='md:absolute md:ml-[75%] flex items-center justify-center mt-4 text-3xl duration-300 hover:text-4xl'>
 
         { 
           theme === "ligth"
