@@ -14,7 +14,7 @@ module.exports = {
         },
       },
       animation: {
-        "slide-down": "slideDown 0.4s linear",
+        "slide-down": "slideDown 0.8s linear",
       },
     },
   },
