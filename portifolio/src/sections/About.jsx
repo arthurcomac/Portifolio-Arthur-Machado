@@ -1,5 +1,4 @@
 export function About () {
-  
   return (
     <div className="w-full md:flex md:justify-evenly m-0 animate-slide-down">
       <img
