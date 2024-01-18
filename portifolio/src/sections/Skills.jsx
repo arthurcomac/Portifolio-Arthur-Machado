@@ -1,6 +1,26 @@
+import { useState, useEffect } from 'react'
 import { AiFillHome, AiFillRead, AiFillDatabase } from 'react-icons/ai'
 
 export function Skills () {
+
+  const sliders = [
+    {
+      image: <AiFillDatabase className="text-3xl"/>,
+      title: "Desenvolvimento Front-end",
+      paragraph: "Gosto de estar em frente a tela do computador trabalhando em um projeto, isso me envolve a ponto de perder a hora!"
+    },
+    {
+      image: <AiFillRead className="text-3xl"/>,
+      title: "Habilidades comportamentais",
+      paragraph: "Gosto de estar em frente a tela do computador trabalhando em um projeto, isso me envolve a ponto de perder a hora!"
+    },
+    {
+      image: <AiFillHome className="text-3xl"/>,
+      title: "Testando carrossel",
+      paragraph: "Gosto de estar em frente a tela do computador trabalhando em um projeto, isso me envolve a ponto de perder a hora!"
+    },  
+  ];
+
   return (
     <div className="w-full h-[36rem]
       flex items-center flex-col
@@ -16,13 +36,20 @@ export function Skills () {
         rounded-2xl py-6
         bg-white"
       >
-        <div className="w-2/3
-          text-center lg:flex justify-between
-          text-lg space-y-4 lg:space-y-0"
+        <div className="w-[90%] min-h-[20rem]
+          text-center
+          text-lg"
         >
-          <div className="flex flex-col items-center"><AiFillDatabase className="text-3xl"/><p>Desenvolvimento Front-end</p></div>
-          <div className="flex flex-col items-center"><AiFillHome className="text-3xl" /><p>Valores</p></div>
-          <div className="flex flex-col items-center"><AiFillRead className="text-3xl"/><p>Engenharia de software</p></div>
+          <div
+            className="flex flex-col items-center"
+          >
+            <strong>
+              {"estamos em manutenção"}
+            </strong>
+            <p>
+              {}
+            </p>
+          </div>
         </div>
       </div>          
     </div>
